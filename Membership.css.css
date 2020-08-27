@@ -1,0 +1,467 @@
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+.BlueBackground{
+    background-color:#00a4d6; 
+}
+
+p{font-family: 'Lato', sans-serif;
+    font-style: 30pt;
+    font-size: 100px;
+    text-align: center;
+      line-height: 20px;
+}
+
+
+
+body{
+    margin:0px; padding:0px;
+    background-color: #004882;
+    font-family: 'Lato', sans-serif;
+}
+
+p {font-size: 60 ;}
+
+nav{
+    width: 125%
+    height: 30px;
+    background-color:#00a4d6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-right: 25px;
+   padding-bottom: 10px;
+    line-height: 20px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 13px;
+    padding-top: 5px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    align-content: center;
+    font-weight: 900;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #004257;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+
+.MembershipSignup{
+    height: 270px;
+    display:flex;
+    font-family: 'Lato', sans-serif;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    background-color: blue;
+}
+
+h1{
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 22pt;
+    text-align: center;
+    background-color:#004882;
+    color:white;
+    font-family: 'Lato', sans-serif
+    -webkit-text-stroke: 0.7px black;
+    -webkit-text-fill-color: white;    
+}
+
+.MemberSignup p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    -webkit-text-stroke: 0.7px black;
+    -webkit-text-fill-color: white;    
+    font-weight:bold;
+}
+
+#AnnualMembership{
+    width: 300px;
+    height: 170px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 0px 10px 20px;
+    box-shadow: 0 5px 60px #027396;
+    display:inline-block;
+    transition-duration: 0.5s;
+}
+
+#AnnualMembership:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+#MonthlyMembership{
+    width: 300px;
+    height: 170px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    margin: 0px 10px 20px;
+    
+    position: center;
+    box-shadow: 0 5px 60px #027396;
+    font-size:20px;
+    text-align: center;
+    background-color: white;
+    display:inline-block;
+    transition-duration: 0.5s;
+}
+#MonthlyMembership:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+#DailyMembership{
+    width: 300px;
+    height: 170px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 0px 10px 20px;
+    position: center;
+    box-shadow: 0 5px 60px #027396;
+    font-size:20px;
+    display:inline-block;
+    transition-duration: 0.5s;
+}
+
+#DailyMembership:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.first-part {
+    background-image: url('https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+}
+
+.text{
+font-size: 40pt;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.membership-container {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    margin-top: -px;
+    margin-left: -50px;
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 12px;
+
+    text-align: center;
+    color:black;
+    
+}
+
+
+h2{
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24pt;
+    text-align: center;
+    color:lightgray
+}
+
+form{
+    align-content: center;
+    text-align: center;
+}
+
+.signup-form h2{
+    margin-top: 560px;
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 30px;
+    color:#00a4d6;
+    background-color: lightgrey;
+}
+
+.signup-form {
+    background-color: lightgrey;
+}
+
+
+.form-control{
+    align-items: center;
+    width: 600px;
+    background:white;
+    border: black;
+    outline: red;
+    border-bottom: 1px solid darkgrey;
+    color: black;
+    font-size: 14pt;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+input{
+    height: 45px;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form .submit{
+    background: #00a4d6;
+    color: white;
+    font-size: 20pt;
+    font-weight: 900;
+    letter-spacing: 1px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color:#004257;
+    font-weight: 900;
+    color:white;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color:#00a4d6;
+}
+
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner_footer .logo_container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.inner_footer .logo_container p{
+    font-size: 12pt;
+    background-color:#00a4d6;
+    color: white;
+}
+
+.inner_footer .logo_container img{
+width: 170px;
+padding-left: 70px;
+}
+
+.inner_footer .footer_third{
+    width: calc(21.6666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.inner_footer .footer_third:last-child{
+    margin-right: 0px;
+}
+
+.inner_footer .footer_third h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+
+.inner_footer .footer_third a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.inner_footer .footer_third a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #004257;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.inner_footer .footer_third li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.inner_footer .footer_third span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    padding-top: 20px;
+}
+
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: %;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {40
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+
+}
+
+button:hover {
+  opacity:1;
+}
+
+.signupbtn {background-color: green;}
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+    
+.gym-selection p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight:bold;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;    
+}
+
+.form-title {
+    padding: 30px;
+    margin-top: 500px;
+}
+
+.gym-selection {
+    padding: 50px;
+    text-align: center;
+}
+
+.dropdown {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:white;
+    color: black;
+}
+
+.GetInTouch {
+    background-color: lightgrey;
+}
+
+.grey {
+    height: 30px;
+    margin-top: -10px;
+    background-color: lightgrey;
+}
+
+.footerh1{
+    background-color: #00a4d6
+}

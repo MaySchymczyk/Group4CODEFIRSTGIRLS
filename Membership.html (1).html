@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="Membership.css.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Fit- Membership Page</title>
+    <script src="./membership.js">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+   
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+    <nav>
+        <img src="GetFit-LogoWhite.png" href="gymhomepage.html" height="50px" style="padding-left: 40px;"></a>
+        <ul>
+            <li><a href="gymhomepage.html">HOME</a></li>
+            <li><a href="locationstidyup.html">LOCATIONS</a></li>
+            <li><a href="Membership.html (1).html">MEMBERSHIP</a></li>
+            <li><a href="gymclasses.html">CLASSES</a></li>
+        </ul>
+    </nav>
+
+
+        <div class="first-part">
+            <div class="MemberSignup">
+                <h1>Sign up below to begin your fitness journey!</h1>
+                <p>Please select a membership type</p>
+            </div>
+
+            <div class="membership-container">
+                <div id="AnnualMembership" onclick="selectAnnualMembership()">
+                    <br>
+                    <b>One-off Annual Payment</b>
+                    <br>
+                    <img src="https://img.icons8.com/offices/30/000000/stepper.png"/><br> 
+                
+                <p> £110 pounds a month <br> 
+                
+                 24/7 access to any of our gym locations <br>
+                    Bring a friend twice a month</p>
+                </div>
+
+                <div id="MonthlyMembership" onclick="selectMonthlyMembership()">
+                    <br>
+                    <b>Pay Monthly</b>
+                    <br>
+                    <img src="https://img.icons8.com/offices/30/000000/treadmill.png"/>
+                    <p>£20 a month <br>
+                    24/7 access to two of our gym locations 
+                    Bring a friend once a month</p>
+                </div>
+
+                <div id="DailyMembership" onclick="selectPayAsYouGoMembership()">
+                    <br>
+                    <b>Pay as you go</b>
+                    <br>
+                    <img src="https://img.icons8.com/office/30/000000/pullups.png"/>
+                    <p>Daily passes at £5<br>
+                    Available at any of our gym locations<br> 
+                    Maximum 2 hour stay</p>
+                </div>
+            </div>
+
+            <br>
+            <br><br><br><br><br><br><br><br><br><br><br>
+        
+
+        <div class="gym-selection">
+            <p>Please select your gym</p>
+            <select on onchange="window.location.href=this.value">
+
+                <option value="0">Location:</option>
+                <option value="https://www.booking.com/city/gb/bristol.en.html?aid=347349&label=msn-bRnmE6hO3OUMv8**9TNk1Q-80333161225375:tikwd-138068696237:loc-188:neo:mte:dec:qsbristol&utm_campaign=United%20Kingdom&utm_medium=cpc&utm_source=bing&utm_term=bRnmE6hO3OUMv8**9TNk1Q&msclkid=674d9cb531751f9ae5bfc3f495c7cd3a">Bristol</option>
+                <option value="https://courses.leeds.ac.uk/course-search?query=history&type=PGT">Leeds</option>
+                <option value="https://www.tripadvisor.co.uk/SmartDeals-g186299-Southampton_Hampshire_England-Hotel-Deals.html">Southampton</option>
+                <option value="https://www.puregym.com/city/birmingham/?utm_medium=cpc&utm_source=bing&utm_campaign=Non_Brand&utm_medium=cpc&gclid=CMq7mb_2r-sCFUV2GwodKYkGvw&gclsrc=ds">Birmingham</option>
+                <option value="https://www.myprotein.com/clothing/womens/gym-leggings.list?divert=hu&thg_ppc_campaign=&product_id=&msclkid=6ffe8a0369001174c65dd542cc14e00a&utm_source=bing&utm_medium=cpc&utm_campaign=UK%20%7C%7C%20EN%20%7C%7C%20SEA%20%7C%7C%20DSA%20%7C%7C%20NB%20%7C%7C%20Cat%20%7C%7C%20Clothing&utm_term=leggings&utm_content=Clothing%20%7C%7C%20Leggings&gclid=CO6P5Mr2r-sCFQibGwod0kUMWQ&gclsrc=ds">Oxford</option>
+            </select>
+        
+        </div>
+    </div>
+    
+
+    <form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account. Please enter your details below.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+
+
+
+    <footer>
+        <h2>Get In Touch</h2>
+        <div class ="text"> 
+        
+        <p>If you have any enquiries, please do not hesitate to contact us with the form below.
+            <br>
+            We estimate to get back to you within 2 working days.
+            <br>
+            For anything urgent, please contact us on 0800 514 329.</p>
+        </p>
+        </div>
+        <div class="contact-form">
+        <form id="contact-form" method="POST" action="">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="Your email" required>
+            <br>
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+            <br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+        </div>
+        </body>
+
+        <br>
+        <br>
+        
+        <div class="footer">
+            <div class="inner_footer">
+                <div class="logo_container">
+                    <img src="GetFit-LogoWhite.png">
+                    <br>
+                    <br>
+                    <p>All Rights Reserved, GetFit 2020.</p>
+                    
+                    
+                </div>
+        
+                <div class="footer_third">
+                    <h1>GetFit Gyms</h1>
+                    <a href="#">Gyms near me</a>
+                    <a href="#">Discounted Membership</a>
+                    <a href="#">Personal Trainers</a>
+                    <a href="#">Classes</a>
+                </div>
+        
+                <div class="footer_third">
+                    <h1>The Company</h1>
+                    <a href="#">About Us</a>
+                    <a href="#">Join the Team</a>
+                    <a href="#">TheGym Corporate</a>
+                </div>
+        
+                <div class="footer_third">
+                    <h1>Need Help?</h1>
+                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">GetFit Safety</a>
+                </div>
+        
+                
+        
+            </div>
+        </div>
+        </footer>
+        
+
+
+
+
+</html>
